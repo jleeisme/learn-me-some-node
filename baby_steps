@@ -1,0 +1,8 @@
+var result = 0;
+
+// start on 2 as node & baby_steps are counted in the array
+  for (var i = 2; i < process.argv.length; i++){
+    result += Number(process.argv[i]);
+}
+  console.log(result);
+// console.log(process.argv)
